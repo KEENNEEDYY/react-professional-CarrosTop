@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --ctop-color-bg-primary: #fff;
+    --ctop-color-bg-1: #fff;
+    --ctop-color-bg-2: #F78B00;
+    --ctop-color-font-1: #000;
+    --ctop-color-font-2: #585858;
+    --ctop-color-font-3: #00285F;
+    --ctop-color-font-4: #fff;
 }
 * {
     box-sizing: border-box;
@@ -14,8 +19,14 @@ a, a:hover{
     color: unset;
 }
 html, body{
-    background-color:var(--ctop-color-bg-primary);
+    background-color:var(--ctop-color-bg-1);
 }
 main{
     padding: 0 20px;
+}
+
+.ctop-container{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
 }
