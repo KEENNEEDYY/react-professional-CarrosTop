@@ -3,10 +3,13 @@
 :root {
     --ctop-color-bg-1: #fff;
     --ctop-color-bg-2: #F78B00;
+    --ctop-color-bg-3: #00285F;
+
     --ctop-color-font-1: #000;
     --ctop-color-font-2: #585858;
     --ctop-color-font-3: #00285F;
     --ctop-color-font-4: #fff;
+    --ctop-color-font-placeholder: #a7a7a7;
 }
 * {
     box-sizing: border-box;
@@ -22,7 +25,7 @@ html, body{
     background-color:var(--ctop-color-bg-1);
 }
 main{
-    padding: 0 20px;
+    padding: 0 0;
 }
 
 .ctop-container{

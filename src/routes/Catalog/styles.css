@@ -1,0 +1,20 @@
+#ctop-catalog-section{
+    padding: 40px 0;
+}
+
+.ctop-catalog-main{
+    padding: 0 10px;
+}
+
+.ctop-search-bar-container{
+    margin-bottom: 40px;
+}
+.ctop-catalog-cards-container{
+    border: 1px solid blue;
+}
+
+@media (min-width: 576px) {
+    .ctop.catalog-main{
+        padding: 0 20px;
+    }
+}
