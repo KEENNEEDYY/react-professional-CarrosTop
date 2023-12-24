@@ -1,0 +1,22 @@
+.ctop-catalog-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: var(--ctop-color-bg-4);
+}
+.ctop-catalog-card img{
+    width: 220px;
+    margin-bottom: 8px;
+}
+.ctop-catalog-card h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.ctop-catalog-card p{
+    font-size: 14px;
+    color: var(--ctop-color-font-2);
+    margin-bottom: 38px;
+}
